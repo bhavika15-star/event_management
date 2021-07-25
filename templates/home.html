@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}
+Home
+{% endblock title %}
+
+
+{% block body %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'home.css'%}"> 
+
+<div class="font-weight-bold homet">
+  <h1 class="hometext m-4">BHAVIKA</h1>
+  <h1 class="hometext mt-2">EVENT MANAGEMENT</h1>
+</div>
+
+<div class="buttonabout d-flex justify-content-center">
+         <p><a class="btn btn-danger btn-lg" href="/about">About-Us &raquo;</a></p>
+    </div>
+    
+<div>
+  <footer class="text-dark-50 bg-white footer p-2 ">
+     <p class="mb-1">&copy; 2017–2021 Bhavika Event-Mangements</p>
+    <ul class="list-inline">
+      <li class="list-inline-item text-primary"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+  </div>
+{% endblock body %}
+
+

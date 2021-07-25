@@ -1,0 +1,146 @@
+{% extends 'base.html' %}
+{% block title %}
+About-Us
+{% endblock title %}
+{% block body %} 
+<style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+</style>
+{% load static %}
+<link rel="stylesheet" href="{% static 'about.css'%}"> 
+<div class="container-fluid px-0 bg-l">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/bday_about.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/wedding_about.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/concert_about.jfif" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<div class="container marketing bg-light">
+<h1 class="my-3 text-center">Services</h1>
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row my-4">
+      <div class="col-lg-4">
+        <img src="/static/bday40.jfif" class="d-block w-100" alt="...">
+
+        <h2>Birth-Day</h2>
+        
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/wedding40.jfif" class="d-block w-100" alt="...">
+
+        <h2>Wedding</h2>
+       
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/static/concert40.jfif" class="d-block w-100" alt="...">
+
+        <h2>Concerts</h2>
+  
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider my-7">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Birth-Day Celebrations</h2>
+        <p class="lead">To make your event to best , give us chance to make your event to be best.</p>
+        <p>The cost of our Birthday-Packages is : Rs.240000</p>
+        <p><a class="btn btn-secondary" href="/bday">View deatils &raquo;</a></p>
+        <br>
+        <p>For more details, you can contact us.</p>
+        <p><a class="btn btn-secondary" href="/contact">Contact-Us &raquo;</a></p>
+      </div>
+      <div class="col-md-5">
+        <img src="/static/bday500.jfif" class="d-block w-100" alt="...">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Wedding Decorations</h2>
+        <p class="lead">To make your event to best , give us chance to make your event to be best.</p>
+        <p>The cost of our Wedding-Packages is : Rs.5670000</p>
+        <p><a class="btn btn-secondary" href="/bday">View deatils &raquo;</a></p>
+        <br>
+        <p>For more details, you can contact us.</p>
+        <p><a class="btn btn-secondary" href="/contact">Contact-Us &raquo;</a></p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="/static/wedding500.jfif" class="d-block w-100" alt="...">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Concerts Organization</h2>
+        <p class="lead">To make your event to best , give us chance to make your event to be best.</p>
+        <p>The cost of our Concert-Packages is : Rs.2890000</p>
+        <p><a class="btn btn-secondary" href="/bday">View deatils &raquo;</a></p>
+        <br>
+        <p>For more details, you can contact us.</p>
+        <p><a class="btn btn-secondary" href="/contact">Contact-Us &raquo;</a></p>
+      </div>
+      <div class="col-md-5">
+       <img src="/static/concert500.jfif" class="d-block w-100" alt="...">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+     <p class="mb-1">&copy; 2017–2021 Bhavika Event-Mangements</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</main>
+{% endblock body %}

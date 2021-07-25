@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+{% block title %}
+Wedding
+{% endblock title %}
+{% block body %} 
+<div class="container-fluid px-0">
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/static/wed1.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/wed2.jfif" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/static/wed3.jfif" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+<h1 class="my-3 text-center">Our Packages Includes</h1>
+<div class="album py-5 bg-light">
+    <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/ring_wedding.jfif">
+
+            <div class="card-body">
+              <p class="card-text">Wedding-Ring</p>
+              <br>
+              <p class="card-para">You can select wedding-rings according to your choise.We will provide you the best rings.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/wed_cakke.jfif">
+
+            <div class="card-body">
+              <p class="card-text">Wedding-Cake</p>
+              <br>
+              <p class="card-para">You can select wedding-cake according to your choise.We will provide you the best cake in taste and look.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/wed_dress.jfif">
+
+            <div class="card-body">
+            <p class="card-text">Wedding-Dress</p>
+              <br>
+              <p class="card-para">You can select wedding-dress according to your choise.We will provide you the best dress in quality and look.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/wed_decoration.jfif">
+
+            <div class="card-body">
+              <p class="card-text">Decorations</p>
+              <br>
+              <p class="card-para">You can select best decorations according to your choise.We will provide you the best decoraions in quality and look.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/wed_stage.jfif">
+
+            <div class="card-body">
+              <p class="card-text">Wedding-Stage</p>
+              <br>
+              <p class="card-para">You can select wedding-stage according to your choise.We will provide you the best stage in quality and look.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="/static/wed_card.jfif">
+
+            <div class="card-body">
+              <p class="card-text">Wedding-Card</p>
+              <br>
+              <p class="card-para">You can select wedding-card according to your choise.We will provide you the best card for your wedding.</p>
+              <div class="d-flex justify-content-between align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="mt-5 d-flex justify-content-center">
+         <p><a class="btn btn-dark btn-lg" href="/payment">Make Payment &raquo;</a></p>
+      </div>
+
+<footer class="text-muted py-5 bg-white">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1">&copy; 2017–2021 Bhavika Event-Mangements</p>
+    <p class="mb-0">Want to go back...<a href="/about">Visit the About-Us</a> .</p>
+  </div>
+</footer>
+
+
+{% endblock body %}

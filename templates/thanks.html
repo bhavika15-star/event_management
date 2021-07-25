@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+Thank you
+{% endblock title %}
+{% block body %} 
+{% load static %}
+<link rel="stylesheet" href="{% static 'thanks.css'%}"> 
+<div class="box">
+               <h1>Thank You</h1>
+               <p>Thank you for contacting us.</p>
+               <div class="pyro">
+                 <div class="before"></div>
+                 <div class="after"></div>
+               </div>
+            </div>
+
+    {% endblock body %}

@@ -1,0 +1,44 @@
+
+body{
+    background-image: url("/static/event-planner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.buttonabout{
+    margin-top: 8.5vh;
+}
+
+.hometext{
+    font-size: 5rem;
+    color: white;
+    text-align: center;
+    text-shadow: 10px 10px tomato;
+}
+.footer{
+    margin-top: 32.5vh;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .hometext{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .hometext{
+        font-size: 4rem;
+    }  
+}
+
+
+@media only screen and (max-width: 450px) {
+    .hometext{
+        font-size: 2rem;
+    }  
+    .footer{
+        margin-top: 42vh;
+    }
+}
